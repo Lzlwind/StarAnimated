@@ -28,6 +28,10 @@
     
     [self.view addSubview:_starView];
     [self.view addSubview:_starViewTouch];
+    
+    UIView *testView = [[UIView alloc]initWithFrame:CGRectMake(100, self.view.frame.size.height - 200, 100, 100)];
+    testView.backgroundColor = [UIColor redColor];
+    [self.view addSubview:testView];
 
 }
 - (IBAction)lightStar:(UIButton *)sender {
