@@ -33,6 +33,9 @@
     testView.backgroundColor = [UIColor redColor];
     [self.view addSubview:testView];
     
+    UIView *testView2 = [[UIView alloc]initWithFrame:CGRectMake(200, self.view.frame.size.height - 200, 100, 100)];
+    testView2.backgroundColor = [UIColor greenColor];
+    [self.view addSubview:testView2];
 
 }
 - (IBAction)lightStar:(UIButton *)sender {
