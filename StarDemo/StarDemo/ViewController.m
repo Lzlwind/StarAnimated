@@ -36,7 +36,8 @@
     UIView *testView2 = [[UIView alloc]initWithFrame:CGRectMake(200, self.view.frame.size.height - 200, 100, 100)];
     testView2.backgroundColor = [UIColor greenColor];
     [self.view addSubview:testView2];
-
+    
+    NSLog(@"_+_+_+_+_+_+_+_+_+_+_+_+");
 }
 - (IBAction)lightStar:(UIButton *)sender {
 
